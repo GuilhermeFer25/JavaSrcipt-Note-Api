@@ -1,0 +1,26 @@
+{
+  "name": "javascript-note-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "",
+    "dev": "nodemon ./bin/www"
+  },
+  "engines":{
+    "node": "14.17.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.13.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.9"
+  }
+}
